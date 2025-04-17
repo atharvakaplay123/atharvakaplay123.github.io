@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+    background: linear-gradient(to right, #2e2e2e, #3a3a3a);
+    color: #e0e0e0;
+  }
+
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    background-color: rgba(40, 40, 40, 0.6);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+
+  .navbar.shrink {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 7px;
+    transition: 0.3s;
+  }
+
+  .navbar.shrink img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+
+  .navbar h1 {
+    font-size: 2.5rem;
+    color: #90cdf4;
+    margin: 0;
+    transition: font-size 0.3s;
+  }
+
+  .navbar.shrink h1 {
+    font-size: 1.2rem;
+  }
+
+  .navbar p {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+  }
+
+  .social-icons a {
+    color: #90cdf4;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    transition: transform 0.2s;
+  }
+
+  .social-icons a:hover {
+    transform: scale(1.2);
+  }
+
+  .section {
+    padding: 3rem 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .about p{
+    text-align: justify;
+  }
+
+  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #63b3ed;
+  }
+  .projects{
+    text-align: justify;
+  }
+  .projects ul{
+    padding: 10px;
+    list-style:inside;
+  }
+  .projects div, .goals li {
+    background-color: rgba(255, 255, 255, 0.05);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .skills-grid img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 0.75rem;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(40, 40, 40, 0.7);
+    backdrop-filter: blur(5px);
+    color: #a0aec0;
+  }
