@@ -1,0 +1,62 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    background-color: rgba(40, 40, 40, 0.6);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+
+.navbar.shrink {
+    padding: 0.5rem 1rem;
+}
+
+.navbar img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.navbar.shrink img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.navbar h1 {
+    font-size: 2.5rem;
+    color: #90cdf4;
+    margin: 0;
+    transition: font-size 0.3s;
+}
+
+.navbar.shrink h1 {
+    font-size: 1.2rem;
+}
+
+.navbar p {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+}
+
+.social-icons a {
+    color: #90cdf4;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    transition: transform 0.2s;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
