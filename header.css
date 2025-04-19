@@ -1,19 +1,17 @@
 header {
-    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 1000;
     backdrop-filter: blur(5px);
-    background-color: rgba(40, 40, 40, 0.6);
+    background-color: rgba(40, 40, 40, 0.4);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-    transition: all 0.3s ease;
-}
-
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 2rem;
-    gap: 1rem;
+    transition: all 0.5s ease;
 }
 
 .navbar.shrink {
@@ -25,7 +23,7 @@ header {
     height: 60px;
     object-fit: cover;
     border-radius: 7px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .navbar.shrink img {
@@ -38,7 +36,7 @@ header {
     font-size: 2.5rem;
     color: #90cdf4;
     margin: 0;
-    transition: font-size 0.3s;
+    transition: font-size 0.5s;
 }
 
 .navbar.shrink h1 {
@@ -50,13 +48,20 @@ header {
     margin-top: 0.3rem;
 }
 
-.social-icons a {
+.social-icons{
+    display: flex;
+    margin-left: auto;
+    margin-right: 0px;
+    text-align: right;
+}
+
+.social-icons a{
     color: #90cdf4;
     margin-left: 1rem;
     font-size: 1.5rem;
-    transition: transform 0.2s;
+    transition: transform 0.2s ease;
 }
 
-.social-icons a:hover {
-    transform: scale(1.2);
+.social-icons a:hover{
+    transform: scale(1.2) !important;
 }
