@@ -60,10 +60,11 @@ body {
 }
 
 .skills-grid {
-  justify-items: center;
+  /* justify-items: center; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: 1.5rem;
+  column-gap: 0;
   margin-top: 1.5rem;
 }
 
