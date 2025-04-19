@@ -24,4 +24,11 @@
     .social-icons{
         display: inline;
     }
+    .skills-grid {
+        justify-items: center;
+        column-gap: 0;
+    }
+    header.shrink{
+        gap: 3px;
+    }
 }

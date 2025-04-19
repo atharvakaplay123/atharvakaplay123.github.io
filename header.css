@@ -11,7 +11,7 @@ header {
     backdrop-filter: blur(5px);
     background-color: rgba(40, 40, 40, 0.4);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-    transition: all 0.5s ease;
+    transition: all 0.3s ease;
 }
 
 .navbar.shrink {
@@ -23,7 +23,7 @@ header {
     height: 60px;
     object-fit: cover;
     border-radius: 7px;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .navbar.shrink img {
@@ -36,7 +36,7 @@ header {
     font-size: 2.5rem;
     color: #90cdf4;
     margin: 0;
-    transition: font-size 0.5s;
+    transition: font-size 0.3s;
 }
 
 .navbar.shrink h1 {
