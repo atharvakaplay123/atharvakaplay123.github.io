@@ -31,4 +31,7 @@
     header.shrink{
         gap: 3px;
     }
+    .hide_in_mobile{
+        display: none;
+    }
 }

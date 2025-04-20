@@ -18,6 +18,26 @@ header {
     padding: 0.5rem 1rem;
 }
 
+.nav-btn{
+    display: flex;
+    margin-left: auto;
+    margin-right: 0px;
+    text-align: right;
+    align-items: center;
+    gap: 10px;
+}
+
+.short{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.short:hover{
+    background-color: rgba(94, 94, 94, 0.4);
+}
+
 .navbar img {
     width: 60px;
     height: 60px;
@@ -50,7 +70,7 @@ header {
 
 .social-icons{
     display: flex;
-    margin-left: auto;
+    /* margin-left: auto; */
     margin-right: 0px;
     text-align: right;
 }
