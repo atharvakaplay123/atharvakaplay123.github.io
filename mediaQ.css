@@ -5,11 +5,11 @@
         align-items: center;
     }
 
-    .projects .card img {
+    .projects .card img{
         max-width: 100%;
     }
 
-    .section:nth-child(2) {
+    body:nth-child(2) {
         position: relative !important;
         top: 115px !important;
         margin-bottom: 100px;
