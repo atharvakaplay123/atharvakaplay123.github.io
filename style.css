@@ -26,3 +26,6 @@ body:nth-child(2){
   margin-bottom: 1rem;
   color: #63b3ed;
 }
+h2, h1, h3{
+  font-weight: 500;
+}

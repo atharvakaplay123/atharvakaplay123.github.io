@@ -1,3 +1,11 @@
 .about p {
     text-align: justify;
+    margin-bottom: 15px;
+}
+.about .h3{
+    text-align: justify;
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0 !important;
+    display: inline;
 }
