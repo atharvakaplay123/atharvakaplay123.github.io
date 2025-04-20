@@ -10,9 +10,9 @@ body {
   color: #e0e0e0;
 }
 
-.section:nth-child(2){
-  position: relative !important;
-  top : 70px !important; 
+body:nth-child(2){
+  position: relative;
+  top : 70px; 
 }
 
 .section {
@@ -21,60 +21,8 @@ body {
   margin: auto;
 }
 
-.about p {
-  text-align: justify;
-}
-
 .section h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: #63b3ed;
 }
-
-.projects p{
-  text-align: justify;
-}
-
-.projects ul {
-  padding: 10px;
-  margin: 0px 10px;
-}
-
-.projects .card,
-.goals li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  background-color: rgba(255, 255, 255, 0.05);
-  margin-bottom: 1rem;
-  padding: 1rem;
-  border-radius: 0.75rem;
-  backdrop-filter: blur(4px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-}
-.projects .card img{
-  height: 100%;
-  max-width: 30%;
-  border-radius: 0.75rem;
-}
-
-.skills-grid {
-  
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.skills-grid img {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-  padding: 0.5rem;
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 0.75rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-}
-
-
