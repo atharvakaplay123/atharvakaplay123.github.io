@@ -16,3 +16,22 @@
 .contact p {
     margin-top: 20px;
 }
+
+.social-icons{
+    display: flex;
+    /* margin-left: auto; */
+    /* margin-right: 0px; */
+    text-align: center;
+    justify-content: center;
+}
+
+.social-icons a{
+    color: #90cdf4;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    transition: transform 0.2s ease;
+}
+
+.social-icons a:hover{
+    transform: scale(1.2) !important;
+}
