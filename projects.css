@@ -7,6 +7,10 @@
     margin: 0px 10px;
 }
 
+.projects h3{
+    font-weight: 600;
+}
+
 .projects .card{
     display: flex;
     flex-direction: column-reverse;
@@ -35,7 +39,7 @@
 .projects .prj-btn {
     text-decoration: none;
     background-color: rgb(72, 72, 72);
-    color: white;
+    color: #90cdf4;
     border-radius: 5px;
     padding: 8px 10px ;
     margin-top: 15px !important;
