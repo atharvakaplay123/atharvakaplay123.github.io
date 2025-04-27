@@ -1,11 +1,33 @@
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
 .about p {
     text-align: justify;
     margin-bottom: 15px;
 }
-.about .h3{
+
+.about .h3 {
     text-align: justify;
     font-weight: 500;
     font-size: 25px;
     margin: 0 !important;
     display: inline;
+}
+
+.about .resume {
+    text-decoration: none;
+    background-color: rgb(72, 72, 72);
+    color: white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    /* margin: auto; */
+    justify-self: center;
+    align-self: flex-start;
+}
+
+.about .resume:hover {
+    background-color: rgba(80, 80, 80, 0.5);
 }

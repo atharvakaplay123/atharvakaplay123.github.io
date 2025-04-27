@@ -15,6 +15,10 @@ body:nth-child(2){
   top : 70px; 
 }
 
+.show_only_in_mobile{
+  display: none;
+}
+
 .section {
   padding: 3rem 2rem;
   max-width: 900px;

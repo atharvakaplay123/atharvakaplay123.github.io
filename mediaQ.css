@@ -31,7 +31,14 @@
     header.shrink{
         gap: 3px;
     }
+    .about .resume{
+        margin: auto;
+        align-self: center;
+    }
     .hide_in_mobile{
         display: none;
+    }
+    .show_only_in_mobile{
+        display: unset;
     }
 }
