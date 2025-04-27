@@ -7,24 +7,29 @@
     margin: 0px 10px;
 }
 
-.projects .card,
-.goals li {
+.projects .card{
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     gap: 15px;
     background-color: rgba(255, 255, 255, 0.05);
     margin-bottom: 1rem;
-    padding: 1rem;
+    /* padding: 1rem; */
     border-radius: 0.75rem;
     backdrop-filter: blur(4px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
-
+.projects .card .txt{
+    margin: 10px 20px;
+}
 .projects .card img {
-    height: 100%;
-    max-width: 30%;
-    border-radius: 0.75rem;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    margin: 0;
+    border-top-right-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
 }
 
 .projects .prj-btn {
