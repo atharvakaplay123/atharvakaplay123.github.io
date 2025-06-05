@@ -30,6 +30,12 @@ body:nth-child(2){
   margin-bottom: 1rem;
   color: #63b3ed;
 }
+.section h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #63b3ed;
+  font-size: 40px;
+}
 h2, h1, h3{
   font-weight: 500;
 }
