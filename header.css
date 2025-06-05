@@ -37,20 +37,6 @@ header {
     background-color: rgba(94, 94, 94, 0.4);
 }
 
-.navbar img {
-    width: 60px;
-    height: 60px;
-    object-fit: cover;
-    border-radius: 7px;
-    transition: 0.3s;
-}
-
-.navbar.shrink img {
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-}
-
 .navbar h1 {
     font-size: 2.5rem;
     color: #90cdf4;
