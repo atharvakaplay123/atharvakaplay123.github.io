@@ -5,7 +5,7 @@
         align-items: center;
     }
 
-    .projects .card img{
+    .projects .card img {
         max-width: 100%;
     }
 
@@ -14,45 +14,58 @@
         top: 115px !important;
         margin-bottom: 100px;
     }
+
     .navbar img {
         width: 80px;
         height: 80px;
     }
+
     .navbar h1 {
         font-size: 2.2rem;
     }
-    .social-icons{
+
+    .social-icons {
         display: inline;
     }
+
     .skills-grid {
         justify-items: center;
         column-gap: 0;
     }
-    header.shrink{
+
+    header.shrink {
         gap: 3px;
     }
-    .about .resume{
-        /* margin: auto; */
+
+    .about .resume {
         align-self: center;
     }
-    .hide_in_mobile{
+
+    .hide_in_mobile {
         display: none;
     }
-    .show_only_in_mobile{
+
+    .show_only_in_mobile {
         display: unset;
     }
-    .punchline{
+
+    .punchline {
         flex-direction: column-reverse;
-        /* justify-content: space-around; */
     }
-    .punchline img{
+
+    .punchline img {
         width: 100%;
         height: auto;
         max-width: 500px;
         align-self: center;
     }
-    .punchline-text .h4{
+
+    .punchline-text .h4 {
         margin: 0;
         margin-bottom: 15px;
+    }
+
+    .certificates {
+        height: 400px;
     }
 }

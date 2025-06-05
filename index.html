@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="projects.css">
   <link rel="stylesheet" href="skills.css">
   <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="certificates.css">
   <link rel="stylesheet" href="mediaQ.css">
   <link rel="shortcut icon" href="images/AK.png" type="image/x-icon">
   <script src="script.js"></script>
@@ -30,28 +31,29 @@
     <div class="nav-btn">
       <a title="Skills" class="short hide_in_mobile" href="#skills">Skills</a>
       <a title="Projects" class="short hide_in_mobile" href="#projects">Projects</a>
+      <a title="Projects" class="short hide_in_mobile" href="#certificates">Certificates</a>
       <a title="Contact" class="short hide_in_mobile" href="#contact">Contact</a>
       <!-- <a title="navigation" class="short show_only_in_mobile" href="#"><i class="fa-solid fa-bars"></i></a> -->
     </div>
   </header>
 
-  <section class="about section about-card punchline">
+  <section class="about section punchline">
     <div class="punchline-text">
-      <h1>Hi👋, <br>I'm Atharva</h1>
+      <h1 id="atharva">Hi👋, <br>I'm <span style="color: #63b3ed;">Atharva</span></h1>
       <p class="h4">A Robotics🤖 & Aerospace Enthusiast🚀 Engineering Future-Ready Machines through Embedded
         Intelligence and Real-World Prototyping💻</p>
 
       <div class="buttons">
+        <a href="#contact" id="contacts" class="resume">Contact 📲</a>
         <a href="Atharva_Kaplay_Resume.pdf" class="resume" target="_blank">Resume 📄</a>
-        <a href="#contact" id="contact" class="resume">Contact 📲</a>
       </div>
     </div>
     <img src="images/me.jpg" alt="">
   </section>
 
-  <section class="about section">
+  <section class="aboutme about section">
 
-    <h2>About Me</h2>
+    <h2>About <span style="color: white;">Me</span></h2>
     <p>
       A passionate and driven B.Tech Computer Science student at Acropolis Institute of Technology
       and Research, Indore (2024-2028), with a strong foundation in Robotics, Embedded Systems, and Programming. Since
@@ -93,7 +95,7 @@
       <img title="Arduino"
         src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/arduino/arduino-original.svg"
         alt="Arduino">
-      <img title="Arduino" src="images/iot.png" alt="Internet of Things">
+      <img title="Internet of Things" src="images/iot.png" alt="Internet of Things">
       <img title="MySQL"
         src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/mysql/mysql-original-wordmark.svg"
         alt="MySQL">
@@ -145,6 +147,22 @@
       <img src="images/inspire.png" alt="Inspire Awards">
     </div>
   </section>
+
+  <section id="certificates" class="certificates section">
+    <h2>My Certificates</h2>
+    <div class="swiper">
+      <img class="slide active" src="certificates/NPTEL Introduction to IoT.jpg" alt="Image 1">
+      <img class="slide" src="certificates/python_basic certificate.jpg" alt="Image 2">
+      <img class="slide" src="certificates/Tech-o-tsav(gadgetmaking).png" alt="Image 3">
+      <img class="slide" src="certificates/Tech-o-tsav(roborace).png" alt="Image 4">
+      <img class="slide" src="certificates/Inspireawards(distlvl).png" alt="Image 5">
+      <img class="slide" src="certificates/Inspireawards(statelvl).png" alt="Image 6">
+
+      <button class="prev" onclick="prevSlide()">❮</button>
+      <button class="next" onclick="nextSlide()">❯</button>
+    </div>
+  </section>
+  <script src="certificates.js"></script>
 
   <section id="contact" class="contact section">
     <h2>Let's Connect 🤝</h2>

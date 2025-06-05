@@ -3,6 +3,14 @@
     flex-direction: column;
 }
 
+.aboutme{
+    background-color: #1f2937;
+}
+
+#atharva{
+    color: white;
+}
+
 .about p {
     text-align: justify;
     margin-bottom: 15px;
@@ -71,14 +79,15 @@
     color: #fec195;
 }
 
-.about #contact{
-    background-color: #63b3ed;
-    border: 2px solid #63b3ed;
+.about #contacts{
+    background-color: #2f95de;
+    border: 2px solid #2f95de;
+    color: white;
 }
 
-.about #contact:hover {
+.about #contacts:hover {
     background-color: rgba(80, 80, 80, 0);
-    color: #63b3ed;
+    color: #2f95de;
 }
 
 .about .buttons{
