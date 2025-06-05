@@ -13,27 +13,30 @@ header {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease;
 }
+
 .navbar.shrink {
     padding: 0.5rem 1rem;
 }
 
-.nav-btn{
+.nav-btn {
     display: flex;
     margin-left: auto;
     margin-right: 0px;
     text-align: right;
     align-items: center;
     gap: 10px;
+    background-color: #00000000;
 }
 
-.short{
+.short {
     text-decoration: none;
     font-size: 18px;
     color: white;
     border-radius: 5px;
     padding: 5px 10px;
 }
-.short:hover{
+
+.short:hover {
     background-color: rgba(94, 94, 94, 0.4);
 }
 
@@ -51,4 +54,59 @@ header {
 .navbar p {
     font-size: 1rem;
     margin-top: 0.3rem;
+}
+
+.menu-wrapper {
+    position: fixed;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+    top: 9px;
+    right: 0px;
+    z-index: 2000;
+}
+
+.menu-btn {
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    background-color: rgba(40, 40, 40, 0);
+}
+
+.menu {
+    display: none;
+    background-color: rgba(40, 40, 40, 0.4);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #00000000;
+    margin-top: 5px;
+    z-index: 1000;
+    transform: translateX(-70px) translateY(5px);
+    border-radius: 10px;
+    align-items: flex-start;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.menu a:hover {
+    border-radius: 10px;
+    background-color: rgba(40, 40, 40, 0.5);
+    width: 100%;
+    text-align: left;
+}
+
+.menu-wrapper:hover .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#toggle-menu {
+    display: none;
 }
