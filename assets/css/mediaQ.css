@@ -1,6 +1,5 @@
 @media only screen and (max-width: 768px) {
     .projects .card {
-        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }

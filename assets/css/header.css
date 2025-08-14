@@ -9,8 +9,8 @@ header {
     top: 0;
     z-index: 1000;
     backdrop-filter: blur(5px);
-    background-color: rgba(40, 40, 40, 0);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+    background-color: #00000000;
+    box-shadow: 0 4px 16px #00000066;
     transition: all 0.3s ease;
 }
 
@@ -31,18 +31,18 @@ header {
 .short {
     text-decoration: none;
     font-size: 18px;
-    color: white;
+    color: var(--text-color);
     border-radius: 5px;
     padding: 5px 10px;
 }
 
 .short:hover {
-    background-color: rgba(94, 94, 94, 0.4);
+    background-color: var(--sec-header-bg);
 }
 
 .navbar h1 {
     font-size: 2.5rem;
-    color: #90cdf4;
+    color: var(--sec-accent-color);
     margin: 0;
     transition: font-size 0.3s;
 }
@@ -59,7 +59,7 @@ header {
 .menu-wrapper {
     position: fixed;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #00000000;
     top: 9px;
     right: 0px;
     z-index: 2000;
@@ -67,15 +67,15 @@ header {
 
 .menu-btn {
     padding: 10px 20px;
-    color: rgb(255, 255, 255);
+    color: var(--text-color);
     border: none;
     cursor: pointer;
-    background-color: rgba(40, 40, 40, 0);
+    background-color: #00000000;
 }
 
 .menu {
     display: none;
-    background-color: rgba(40, 40, 40, 0.4);
+    background-color: var(--header-bg);
     backdrop-filter: blur(10px);
     position: absolute;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -91,12 +91,12 @@ header {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: var(--text-color);
 }
 
 .menu a:hover {
     border-radius: 10px;
-    background-color: rgba(40, 40, 40, 0.5);
+    background-color: var(--header-btn-hover);
     width: 100%;
     text-align: left;
 }

@@ -4,11 +4,11 @@
 }
 
 .aboutme{
-    background-color: #1f2937;
+    background-color: var(--secondary-color);
 }
 
 #atharva{
-    color: white;
+    color: var(--text-color);
 }
 
 .about p {

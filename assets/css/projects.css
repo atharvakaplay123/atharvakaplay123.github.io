@@ -13,16 +13,16 @@
 
 .projects .card{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 15px;
-    background-color: #1f2937;
+    background-color: var(--secondary-color);
     margin-bottom: 1rem;
     /* padding: 1rem; */
     border-radius: 0.75rem;
     backdrop-filter: blur(4px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 12px #00000040;
 }
 .projects .card .txt{
     margin: 10px 20px;
@@ -38,9 +38,9 @@
 
 .projects .prj-btn {
     text-decoration: none;
-    background-color: #0097b2;
+    background-color: var(--btn-color);
     color: #ffffff;
-    border: 2px solid #0097b2;
+    border: 2px solid var(--btn-color);
     border-radius: 5px;
     padding: 6px 10px ;
     margin-top: 15px !important;
@@ -49,8 +49,8 @@
 }
 
 .projects .prj-btn:hover{
-    color: #0097b2;
-    background-color: #50505000;
+    color: var(--btn-color);
+    background-color: #00000000;
 }
 
 .projects .pbtn{
