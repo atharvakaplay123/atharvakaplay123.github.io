@@ -62,6 +62,15 @@ function db_skills() {
     e.style.display = "unset";
   })
 }
+function linux_skills() {
+  no_skills_btn();
+  document.getElementById("linux_skills").style.color = "#ffffff"
+  document.getElementById("linux_skills").style.backgroundColor = "#0097b2"
+  no_skills();
+  Array.from(document.getElementsByClassName("linux")).forEach((e) => {
+    e.style.display = "unset";
+  })
+}
 function robotics_skills() {
   no_skills_btn();
   document.getElementById("robotics_skills").style.color = "#ffffff"
