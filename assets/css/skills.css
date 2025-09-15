@@ -14,3 +14,26 @@
     border-radius: 0.75rem;
     box-shadow: 0 4px 12px #00000040;
 }
+
+.skills .tabs{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+}
+.skills .tabs .tab{
+    text-decoration: none;
+    color: var(--btn-color);
+    background-color: #00000000;
+    border: 2px solid var(--btn-color);
+    border-radius: 5px;
+    padding: 6px 10px ;
+    margin-top: 15px !important;
+    /* align-self: center; */
+    transition: all 0.2s ease;
+}
+.skills .tabs .tab:hover{
+    background-color: var(--btn-color);
+    color: #ffffff;
+    
+}

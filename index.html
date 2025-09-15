@@ -24,6 +24,7 @@
 </head>
 
 <body>
+
   <header class="navbar">
     <div>
       <h1>Atharva Kaplay</h1>
@@ -83,33 +84,44 @@
 
   <section id="skills" class="section skills">
     <h2>Skills</h2>
-    <div class="skills-grid">
-      <img title="C" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
-      <img title="C++" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-        alt="C++">
-      <img title="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
-      <img title="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
-      <img title="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
-      <img title="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-        alt="Python">
-      <img title="Git"
+    <div id="skill_btns" class="tabs">
+      <button id="all_skills" onclick="all_skills()" class="tab">All</button>
+      <button id="web_skills" onclick="web_skills()" class="tab">Web-Dev</button>
+      <button id="lang_skills" onclick="lang_skills()" class="tab">Languages</button>
+      <button id="tools_skills" onclick="tools_skills()" class="tab">Tools</button>
+      <button id="db_skills" onclick="db_skills()" class="tab">DB</button>
+      <button id="robotics_skills" onclick="robotics_skills()" class="tab">Robotics&IoT</button>
+    </div>
+    <div id="skills-grid" class="skills-grid">
+      <img class="language" title="C" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
+      <img class="language" title="C++"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+      <img class="web-dev" title="HTML"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+      <img class="web-dev" title="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+        alt="CSS">
+      <img class="web-dev" title="JS"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS">
+      <img class="language" title="Python"
+        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+      <img class="tools" title="Git"
         src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/git/git-original.svg"
         alt="Git">
-      <img title="vscode"
+      <img class="tools" title="vscode"
         src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/vscode/vscode-original.svg"
         alt="vscode">
-      <img title="Ubuntu" src="assets/images/Ubuntu.svg" alt="Ubuntu">
-      <img title="DebianOS"
+      <img class="linux" title="Ubuntu" src="assets/images/Ubuntu.svg" alt="Ubuntu">
+      <img class="linux" title="DebianOS"
         src="https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/debian/debian-original.svg"
         alt="DebianOS">
-      <img title="RaspberryPi"
+      <img class="robotics" title="RaspberryPi"
         src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/raspberrypi/raspberrypi-original.svg"
         alt="RaspberryPi">
-      <img title="Arduino"
+      <img class="robotics" title="Arduino"
         src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/arduino/arduino-original.svg"
         alt="Arduino">
-      <img title="Internet of Things" src="assets/images/iot.png" alt="Internet of Things">
-      <img title="MySQL"
+      <img class="robotics" title="Internet of Things" src="assets/images/iot.png" alt="Internet of Things">
+      <img class="DB" title="MySQL"
         src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/mysql/mysql-original-wordmark.svg"
         alt="MySQL">
 
@@ -128,7 +140,8 @@
         </p>
         <div class="pbtn">
           <a href="https://github.com/atharvakaplay123/Smart-farming-System" target="_blank" class="prj-btn">GitHub</a>
-          <a href="https://www.hackster.io/atharva-kaplay/iot-based-smart-farming-system-92f50e" target="_blank" class="prj-btn">Hackster.io</a>
+          <a href="https://www.hackster.io/atharva-kaplay/iot-based-smart-farming-system-92f50e" target="_blank"
+            class="prj-btn">Hackster.io</a>
         </div>
       </div>
     </div>
