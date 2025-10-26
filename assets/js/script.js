@@ -26,12 +26,21 @@ function no_skills_btn() {
     e.style.color = "#0097b2"
   })
 }
-function web_skills() {
+function frontend_skills() {
   no_skills_btn();
-  document.getElementById("web_skills").style.color = "#ffffff"
-  document.getElementById("web_skills").style.backgroundColor = "#0097b2"
+  document.getElementById("frontend_skills").style.color = "#ffffff"
+  document.getElementById("frontend_skills").style.backgroundColor = "#0097b2"
   no_skills();
-  Array.from(document.getElementsByClassName("web-dev")).forEach((e) => {
+  Array.from(document.getElementsByClassName("frontend")).forEach((e) => {
+    e.style.display = "unset";
+  })
+}
+function backend_skills() {
+  no_skills_btn();
+  document.getElementById("backend_skills").style.color = "#ffffff"
+  document.getElementById("backend_skills").style.backgroundColor = "#0097b2"
+  no_skills();
+  Array.from(document.getElementsByClassName("backend")).forEach((e) => {
     e.style.display = "unset";
   })
 }
